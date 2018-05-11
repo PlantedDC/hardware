@@ -7,7 +7,7 @@
 
 ### Sensors
 
-
+---
 ## Goal
 Collect data from a variety of sensors. The Arduino is used because it can
 deal with both analogue and digital sensors. The Arduino simply reads data
