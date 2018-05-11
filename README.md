@@ -44,7 +44,7 @@ network={
    Sometimes a wpa_supplicant.conf file can be placed in the boot partition of the memory card to get connected to wifi.
 
 <p align="center">
-    <img width="400" height="560" src="./basicSetup.jpg">
+    <img width="600" height="560" src="./basicSetup.jpg">
 </p>
 
 
