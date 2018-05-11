@@ -6,7 +6,8 @@
 * Arduino Uno
 
 ### Sensors
-
+* OSEPP Humidity and Temperature Sensor - HUMI-01
+* Generic photo resistor
 ---
 ## Setup
 * Download Arduino IDE from [here](https://www.arduino.cc/en/Main/Software).
@@ -43,6 +44,20 @@ network={
 ```
    Sometimes a wpa_supplicant.conf file can be placed in the boot partition of the memory card to get connected to wifi.
 
+   To check if wirless is working use this command.
+```console
+pi@raspberrypi:~$ ifconfig wlan0
+```
+   If the inet addr field has an address beside it.
+
+   To restart wireless if it does not automatically these commands can be used.
+```console
+pi@raspberrypi:~$ sudo ifdown wlan0
+pi@raspberrypi:~$ sudo ifup wlan0
+```
+
+## Circuit
+---
 <p align="center">
     <img width="600" height="560" src="./basicSetup.jpg">
 </p>
