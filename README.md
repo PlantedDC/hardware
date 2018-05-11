@@ -22,8 +22,8 @@
 
 ## Goal
 Collect data from a variety of sensors. The Arduino is used because it can
-deal with both analogue and digital sensors. The Arduino simply reads data
+deal with both analog and digital sensors. The Arduino simply reads data
 from the sensors at a set time interval and then transmits this data 
 through serial communication to a Raspberry Pi. The Pi takes this data,
 puts it into JSON form, and sends it through POST requests to a server
-deployed on Heroku. 
+deployed on Heroku.
