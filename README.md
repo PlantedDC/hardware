@@ -8,6 +8,10 @@
 ### Sensors
 
 ---
+## Setup
+* Download Arduino IDE from [here](https://www.arduino.cc/en/Main/Software)
+The IDE allows for easy uploading of programs to the Arduino via USB
+
 ## Goal
 Collect data from a variety of sensors. The Arduino is used because it can
 deal with both analogue and digital sensors. The Arduino simply reads data
