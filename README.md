@@ -19,9 +19,32 @@
     - Write the Raspbian image to a microSD card
 
    A good tool to write the image for Mac OS is [Etcher](https://etcher.io/)
+    - Plug Pi up to a monitor, keyboard, and power.
+    - Initially username will be 'pi' and password will be 'raspberry'
+    - Setting up wifi for the Pi
+
+   From the console we can scan for wifi networks using iwlist
+```console
+pi@raspberrypi:~$ sudo iwlist wlan0 scan
+```
+   This will output quite alot of information on local wifi networks, pay
+attention to the ESSID values they are the names of the wifi networks.
+Then we will add the network information to the 'wpa_supplicant.conf' file
+
+```console
+pi@raspberrypi:~$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
+   We should be able to go to the bottom of this file and add
+```console
+network={
+    ssid='essid name from earlier'
+    psk='the password for the network'
+}
+```
+   Sometimes a wpa_supplicant.conf file can be placed in the boot partition of the memory card to get connected to wifi.
 
 <p align="center">
-    <img width="300" height="560" src="./basicSetup.jpg">
+    <img width="400" height="560" src="./basicSetup.jpg">
 </p>
 
 
