@@ -13,8 +13,13 @@
 
    The IDE allows for easy uploading of programs to the Arduino via USB
 * Prepare the Raspberry PI.
-    - Download Rasbian from [here](https://www.raspberrypi.org/downloads/raspbian/).
-    - Write image to a microSD card
+    - Download Raspbian from [here](https://www.raspberrypi.org/downloads/raspbian/).
+
+   Raspbian is an Debian based version of Linux optimized for the Raspberry Pi hardware.
+    - Write the Raspbian image to a microSD card
+
+   A good tool to write the image for Mac OS is [Etcher](https://etcher.io/)
+
 ## Goal
 Collect data from a variety of sensors. The Arduino is used because it can
 deal with both analogue and digital sensors. The Arduino simply reads data
