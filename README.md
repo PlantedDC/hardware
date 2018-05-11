@@ -20,6 +20,11 @@
 
    A good tool to write the image for Mac OS is [Etcher](https://etcher.io/)
 
+<p align="center">
+    <img width="300" height="560" src="./basicSetup.jpg">
+</p>
+
+
 ## Goal
 Collect data from a variety of sensors. The Arduino is used because it can
 deal with both analog and digital sensors. The Arduino simply reads data
