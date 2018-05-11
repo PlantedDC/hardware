@@ -10,6 +10,7 @@
 ---
 ## Setup
 * Download Arduino IDE from [here](https://www.arduino.cc/en/Main/Software).
+
    The IDE allows for easy uploading of programs to the Arduino via USB
 * Prepare the Raspberry PI.
     - Download Rasbian from [here](https://www.raspberrypi.org/downloads/raspbian/).
