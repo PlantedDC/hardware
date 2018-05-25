@@ -1,5 +1,11 @@
 # Hardware
 ---
+
+#### Github Links:
+[Planted Github |](https://github.com/PlantedDC)
+<a href="https://github.com/PlantedDC/planted-back"> Back End |</a>
+<a href="https://github.com/PlantedDC/planted-front"> Front End</a>
+
 ## Components
 ### Single Board Computers and Microcontrollers
 * Raspberry Pi 3 model B
